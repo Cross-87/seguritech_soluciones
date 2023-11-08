@@ -1,0 +1,12 @@
+html {
+  scroll-behavior: smooth; /* Aplica un desplazamiento suave en todo el sitio */
+}
+
+body {
+  scroll-snap-type: y mandatory; /* Habilita el desplazamiento suave vertical */
+}
+
+/* Estilo para las secciones a las que te desplazarás */
+section {
+  scroll-snap-align: start;
+}
